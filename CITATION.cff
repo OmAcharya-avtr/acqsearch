@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "AcqSearch"
+abstract: "Spatial acquisition search for an optical terminal — spiral, raster, Lissajous and random-restart scan patterns over a declared 2-D pointing-uncertainty cone with declared beam divergence, detector field of view, dwell time, slew rate and per-dwell detection probability including false alarms; coverage fraction against time, expected acquisition time computed analytically where the geometry allows and by seeded Monte Carlo otherwise with the two cross-checked, optimal dwell from the detection-probability trade, and a learned adaptive scan-order policy benchmarked against both the fixed pattern and the Bayesian-greedy posterior update."
+type: software
+authors:
+  - family-names: "Acharya"
+    given-names: "Om"
+    alias: "OmAcharya-avtr"
+repository-code: "https://github.com/OmAcharya-avtr/acqsearch"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-08-30"
+keywords:
+  - aerospace
+  - pointing-acquisition-tracking
